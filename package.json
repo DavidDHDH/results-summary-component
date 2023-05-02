@@ -1,0 +1,24 @@
+{
+  "name": "results-summary-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidDHDH/results-summary-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidDHDH/results-summary-component/issues"
+  },
+  "homepage": "https://github.com/DavidDHDH/results-summary-component#readme"
+}
