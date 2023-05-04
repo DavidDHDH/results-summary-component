@@ -17,10 +17,9 @@ module.exports = {
         "Dark-gray-blue": "hsl(224, 30%, 27%)",
       },
       fontFamily: {
-        "hanken-grotesk": ["Hanken Grotesk", "sans-serif"]
-      }
+        "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
+      },
     },
   },
   plugins: [],
 };
-

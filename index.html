@@ -20,8 +20,10 @@
 
   <body class="bg-slate-100">
     <div
+      id="main-card"
       class="flex h-[512px] w-[737px] rounded-3xl bg-white shadow-2xl shadow-indigo-200 max-md:h-[809px] max-md:w-[368px] max-md:flex-col">
       <div
+        id="left-part"
         class="header w-[368px] rounded-3xl bg-gradient-to-t from-bleu-back to-violet-back px-10 text-center max-md:h-[355px]">
         <h1
           class="my-9 text-2xl font-semibold text-Light-lavender max-md:my-5 max-md:text-lg">
@@ -40,15 +42,16 @@
         </p>
       </div>
 
-      <div class="main flex flex-col px-[40px] max-md:px-[30px]">
-        <!--  marge à modifier MD -->
+      <div
+        id="right-part"
+        class="main flex w-[365px] flex-col px-[40px] max-md:px-[30px]">
         <h3
           class="mb-[15px] mt-9 text-2xl text-Dark-gray-blue max-md:mb-0 max-md:mt-5 max-md:text-lg">
           Summary
         </h3>
-        <div class="mb-[40px] mt-[20px] space-y-4">
+        <div class="mb-[40px] max-md:mb-[30px] mt-[20px] flex flex-col space-y-4">
           <div
-            class="flex h-[56px] w-[290px] items-center justify-between rounded-xl bg-red-50 px-3">
+            class="flex h-[56px] items-center justify-between rounded-xl bg-red-50 px-3">
             <div class="flex text-Light-red max-md:text-base">
               <div class="flex items-center pr-3">
                 <svg
@@ -76,7 +79,7 @@
             </div>
           </div>
           <div
-            class="flex h-[56px] w-[290px] items-center justify-between rounded-xl bg-yellow-50 px-3">
+            class="flex h-[56px] items-center justify-between rounded-xl bg-yellow-50 px-3">
             <div class="flex text-Orangey-yellow max-md:text-base">
               <div class="flex items-center pr-3">
                 <svg
@@ -115,7 +118,7 @@
             </div>
           </div>
           <div
-            class="flex h-[56px] w-[290px] items-center justify-between rounded-xl bg-green-50 px-3">
+            class="flex h-[56px] items-center justify-between rounded-xl bg-green-50 px-3">
             <div class="flex text-Green-teal max-md:text-base">
               <div class="flex items-center pr-3">
                 <svg
@@ -142,7 +145,7 @@
             </div>
           </div>
           <div
-            class="flex h-[56px] w-[290px] items-center justify-between rounded-xl bg-blue-50 px-3">
+            class="flex h-[56px] items-center justify-between rounded-xl bg-blue-50 px-3">
             <div class="flex text-Cobalt-blue max-md:text-base">
               <div class="flex items-center pr-3">
                 <svg
@@ -176,7 +179,7 @@
           </div>
         </div>
         <div
-          class="flex h-14 items-center justify-center rounded-full bg-Dark-gray-blue text-white hover:cursor-pointer hover:bg-gradient-to-t hover:from-bleu-back hover:to-violet-back">
+          class="h-14 flex items-center justify-center rounded-full bg-Dark-gray-blue text-white first-line:flex hover:cursor-pointer hover:bg-gradient-to-t hover:from-bleu-back hover:to-violet-back">
           Continue
         </div>
       </div>
