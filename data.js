@@ -1,4 +1,4 @@
-const score = [
+const scores = [
   {
     category: "Reaction",
     score: 80,

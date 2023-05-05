@@ -1,11 +1,25 @@
+const result = document.getElementById('moyenne')
+const notes = scores.map(score => score.score)
 
-const reaction = document.getElementById("Reaction-score")
-const memory = document.getElementById("Memory-score");
-const verbal = document.getElementById("Verbal-score");
-const visual = document.getElementById("Visual-score");
 
-reaction.innerHTML = score[0].score
-memory.innerHTML = score[1].score;
-verbal.innerHTML = score[2].score;
-visual.innerHTML = score[3].score;
 
+// Affichage des scores individuels
+scores.forEach(score => {
+    const idElem = score.category
+    document.getElementById(idElem).innerHTML = score.score
+})
+
+// Calcul et affichage de la moyenne
+
+const moyenne = (notes) => {
+  let sum = 0;
+  let count = 0;
+  for (var note of notes) {
+    sum = sum + note;
+    count++;
+  }
+  return sum / count;
+};
+
+const res = Math.round(moyenne(notes))
+result.textContent = res
